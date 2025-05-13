@@ -1,0 +1,6 @@
+def count_sqrts(nums_list):
+    count=0
+    for i in nums_list:
+        if i*i in nums_list:
+            count=count+1
+    return(count)
